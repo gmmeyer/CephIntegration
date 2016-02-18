@@ -1,0 +1,16 @@
+metric_name,metric_type,interval,unit_name,per_unit_name,description,orientation,integration,short_name
+ceph.commit_latency_ms,gauge,,msec,,Time taken to commit an operation to the journal,-1,ceph,commit lat
+ceph.apply_latency_ms,gauge,,msec,,Time taken to flush an update to disks,-1,ceph,apply lat
+ceph.op_per_sec,gauge,,count,,IO operations per second for given pool,0,ceph,op per sec
+ceph.read_bytes_sec,gauge,,bytes,,Bytes/second being read,0,ceph,read bytes
+ceph.write_bytes_sec,gauge,,bytes,,Bytes/second being written,0,ceph,write bytes
+ceph.num_osds,gauge,,count,,Number of known storage daemons,1,ceph,num osds
+ceph.num_in_osds,gauge,,count,,Number of participating storage daemons,1,ceph,in osds
+ceph.num_up_osds,gauge,,count,,Number of online storage daemons,1,ceph,up osds
+ceph.num_pgs,gauge,,count,,Number of placement groups available,0,ceph,num pgs
+ceph.num_mons,gauge,,count,,Number of monitor daemons,1,ceph,num mons
+ceph.aggregate_pct_used,gauge,,count,,Overall capacity usage metric,0,ceph,pct used
+ceph.total_objects,gauge,,count,,Object count from the underlying object store,0,ceph,objects
+ceph.num_objects,gauge,,count,,Object count for a given pool,0,ceph,pool objects
+ceph.read_bytes,rate,,count,,Per-pool read bytes,0,ceph,pool read
+ceph.write_bytes,rate,,count,,Per-pool write bytes,0,ceph,pool write
