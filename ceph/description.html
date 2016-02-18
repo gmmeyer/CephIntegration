@@ -39,26 +39,11 @@
     <div class="integration_content" id="int-configuration">
       <h2>Configuration</h2>
       <p>
-        <em>Install the Datadog agent on each Ceph monitor</em>
+	<ul>
+	  <li>Copy stock conf.d/ceph.yaml.default to conf.d/ceph.yaml</li>	    
+	  <li>Enable sudo support if needed by your environment</li>
+	</ul>
       </p>
-      <ol>
-        <li>Configure (
-          <a href="http://link_to_your_documentation">see doc<a/>)<br>
-          <pre class="textfile">
-            <code>
-Use escaped text between &lt;code&gt; section 
-            </code>
-           </pre>
-        </li>
-        <li>Configure .... to monitor<br>
-          Edit ${confd_help('<code>conf.d/%s.yaml</code>' % agent_name)}
-          <pre class="textfile">
-            <code>
-Text instrutions for confugraing your integartion
-          </code>
-        </pre>
-       </li>
-     </ol>
    </div>
 </body>
 </html>
